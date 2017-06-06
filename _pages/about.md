@@ -9,11 +9,9 @@ Hello!
 
 I'm Ahmad Ajmi, a Front End Developer from Cairo, Egypt.
 
-<div hidden>
-Learning to code was a life change for me, I graduated with a degree in Accounting, but I quit it entirely and moved on to learn how to code in HTML & CSS, and then I landed my first job as a web developer back in 2012.
+Learning to code was a signigicant life change for me. I graduated with a degree in Accounting, but I quit it entirely and moved on to learn how to code in HTML & CSS, and then I landed my first job as a web developer back in 2012.
 
 ---
-</div>
 
 Currently, I run an online business at [Aspire Themes](https://aspirethemes.com/) building premium WordPress, Ghost, and Jekyll themes.
 
