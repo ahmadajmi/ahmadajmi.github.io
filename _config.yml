@@ -8,6 +8,7 @@
 title:            Ahmad Ajmi
 description:      A Self-taught & Entrepreneurial <br>Front End Developer.
 url:              https://ahmadajmi.com
+resume:           /resume.pdf
 email:            ahmad@ahmadajmi.com
 mailto:           mailto:ahmadajmi@gmail.com
 twitter:          http://www.twitter.com/ahmadajmi
@@ -21,7 +22,6 @@ linkedin:         https://www.linkedin.com/in/ahmadajmi/
 goodreads:        https://www.goodreads.com/user/show/5387651-ahmad
 arabicBlog:       https://oktob.io/ahmadajmi
 stackoverflow:    https://stackoverflow.com/users/558777/ahmad-ajmi?tab=profile
-resume:           /images/resume.pdf
 
 permalink: /blog/:title
 post_dirs: false
