@@ -1,0 +1,27 @@
+/*------------------------------------*\
+  Components > Content
+\*------------------------------------*/
+
+.c-content {
+  a:not(.c-btn) {
+    @include underlineBorder(94%);
+  }
+
+  img:not(.no-frame) {
+    margin: 0 auto;
+    padding: $base-spacing-unit;
+    text-align: center;
+    background-color: $bg-gray;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &:not(:first-child) {
+      margin-top: double($base-spacing-unit);
+    }
+  }
+}

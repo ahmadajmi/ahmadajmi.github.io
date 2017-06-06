@@ -1,0 +1,26 @@
+/*------------------------------------*\
+  Elements > hr
+\*------------------------------------*/
+
+hr {
+  width: 100%;
+  margin: double($base-spacing-unit) 0;
+  text-align: center;
+  border: 0;
+
+  &:after {
+    content: '...';
+    padding: 0 ( half($base-spacing-unit) + $base-spacing-unit ) 0 double($base-spacing-unit);
+    display: inline-block;
+    position: relative;
+    top: - ( $base-spacing-unit + half(quarter($base-spacing-unit)) );
+    color: $color-gray;
+    background-color: $color-white;
+    font-family: $font-serif;
+    letter-spacing: half($base-spacing-unit);
+  }
+
+  &.double-bottom {
+    margin-bottom: quadruple($base-spacing-unit);
+  }
+}

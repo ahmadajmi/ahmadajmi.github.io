@@ -1,0 +1,20 @@
+---
+layout: default
+title: Journal
+---
+
+{% assign journals = (site.journals | sort: 'date') | reverse %}
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
+
+      <div class='o-grid'>
+        {% for journal in journals %}
+          {% include journal-card.html %}
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+</div>

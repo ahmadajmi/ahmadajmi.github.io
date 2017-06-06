@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  Components > Journal Card
+\*------------------------------------*/
+
+.c-journal-card {
+  &__date {
+    display: block;
+    color: $color-gray;
+    font-size: $font-size-small;
+  }
+
+  &__title {
+    display: inline-block;
+    font-size: $font-size-h5;
+    line-height: $line-height-base;
+    transition: $global-transition;
+
+    @include underlineBorder(86%);
+  }
+}

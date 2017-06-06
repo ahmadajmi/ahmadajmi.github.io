@@ -1,0 +1,6 @@
+- name: About
+  link: /about
+- name: Journal
+  link: /journal
+# - name: Writing
+#   link: /writing

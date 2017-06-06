@@ -1,0 +1,29 @@
+<header class='c-header' role='banner'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--2-4'>
+      <a class="c-header__logo" href='/' title="Homepage">{{ site.title }}</a>
+    </div>
+
+    <button class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Menu' aria-expanded='false' aria-controls='navigation'>
+      <span data-icon='ei-navicon' data-size='s'></span>
+    </button>
+
+    <div class='o-grid__col o-grid__col--2-4'>
+      <nav role='navigation' id='navigation'>
+        <ul class='o-plain-list c-site-nav c-off-canvas-content js-off-canvas-content'>
+          {% for link in site.data.navigation %}
+            {% assign class = nil %}
+            {% if page.url contains link.link %}
+              {% assign class = ' c-site-nav__link--active' %}
+            {% endif %}
+            <li class='c-site-nav__item'><a class='c-site-nav__link {{ class }}' href='{{ link.link }}'>{{ link.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+</header>
+
+<div id='content'></div>

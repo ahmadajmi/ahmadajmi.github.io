@@ -1,0 +1,10 @@
+---
+layout: default
+title: Blog
+---
+
+<div class='o-grid'>
+  {% for post in site.posts %}
+    {% include post-card.html %}
+  {% endfor %}
+</div>

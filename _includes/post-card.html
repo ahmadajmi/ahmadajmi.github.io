@@ -1,0 +1,18 @@
+<div class='o-grid__col o-grid__col--2-4'>
+  <div class='c-post-card'>
+    <span class='c-post-card__meta'>
+      <time datetime='{{ post.date | date: '%b %-d, %Y' }}'>{{ post.date | date: '%b %-d, %Y' }}</time>
+      {% if post.external %} . {{ post.external.host }} {% endif %}
+    </span>
+
+    {% if post.external %}
+      <a href='{{ post.external.url }}' class='c-post-card__link'>
+    {% else %}
+      <a href='{{ post.url }}' class='c-post-card__link'>
+    {% endif %}
+      <h3 class='c-post-card__title'>
+        {{ post.title }}
+      </h3>
+    </a>
+  </div>
+</div>

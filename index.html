@@ -1,0 +1,26 @@
+---
+layout: default
+title: Ahmad Ajmi
+---
+
+<div class='o-wrapper'>
+  <div class='c-hero'>
+    <div class='o-grid'>
+      <div class='o-grid__col o-grid__col--4-4 o-grid__col--center'>
+        <h1 class='c-hero__tagline'>{{ site.description }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <hr>
+    </div>
+  </div>
+
+  <div class='o-grid'>
+    {% for post in site.posts %}
+      {% include post-card.html %}
+    {% endfor %}
+  </div>
+</div>

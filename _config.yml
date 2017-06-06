@@ -1,0 +1,42 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+title:            Ahmad Ajmi
+description:      A Self-taught & Entrepreneurial <br>Front End Developer.
+url:              https://ahmadajmi.com
+email:            ahmad@ahmadajmi.com
+mailto:           mailto:ahmadajmi@gmail.com
+twitter:          http://www.twitter.com/ahmadajmi
+medium:           https://medium.com/@ahmadajmi
+sitepoint:        http://www.sitepoint.com/author/aajmi/
+github:           https://github.com/ahmadajmi
+facebook:         https://www.facebook.com/ahmadajmi
+instagram:        https://www.instagram.com/ahmadajme
+flickr:           https://www.flickr.com/photos/127527579@N04/
+linkedin:         https://www.linkedin.com/in/ahmadajmi/
+goodreads:        https://www.goodreads.com/user/show/5387651-ahmad
+arabicBlog:       https://oktob.io/ahmadajmi
+stackoverflow:    https://stackoverflow.com/users/558777/ahmad-ajmi?tab=profile
+resume:           /images/resume.pdf
+
+permalink: /blog/:title
+post_dirs: false
+markdown: kramdown
+
+include:
+  - _pages
+
+gems:
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+collections:
+  journals:
+    output: true
+    permalink: /journal/:path/

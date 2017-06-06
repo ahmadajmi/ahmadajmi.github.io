@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
+
+      <div class='c-post'>
+        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%b %-d, %Y' }}</time>
+
+        <h3 class='c-post__title'>{{ page.title }}</h3>
+
+        <article class='c-content' role='article'>
+          <hr>
+
+          {{ content }}
+
+        </article>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--3-4'>
+            <div class='c-tags'>
+              {% for tag in page.tags %}
+                <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+/*------------------------------------*\
+  Components > Post Card
+\*------------------------------------*/
+
+.c-post-card {
+  height: calc(100% - #{double($base-spacing-unit)});
+  padding: double($base-spacing-unit) double($base-spacing-unit) double($base-spacing-unit) 0;
+
+  &__meta {
+    display: block;
+    color: $color-gray;
+    font-size: $font-size-small;
+  }
+
+  &__link {
+    display: block;
+
+    @include attention() {
+      color: $color-brand;
+      text-decoration: none;
+    }
+  }
+
+  &__title {
+    margin-bottom: 0;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+  }
+}

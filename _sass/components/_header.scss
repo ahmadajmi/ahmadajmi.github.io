@@ -1,0 +1,14 @@
+/*------------------------------------*\
+  Components > Header
+\*------------------------------------*/
+
+.c-header {
+  padding: double($base-spacing-unit) 0;
+
+  &__logo {
+    @include attention() {
+      color: $color-brand;
+      text-decoration: none;
+    }
+  }
+}

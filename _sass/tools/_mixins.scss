@@ -1,0 +1,70 @@
+// *----------------------------------*\
+// Tools > Mixins
+// *----------------------------------*/
+
+// Apply ‘attention’ styles in one go.
+// https://goo.gl/LFx8on
+//
+// Example use:
+//
+// @include attention() {
+//   text-decoration: underline;
+// }
+@mixin attention() {
+  &:hover,
+  &:active,
+  &:focus {
+    @content;
+  }
+}
+
+// Mixin to drop micro clearfix into a selector.
+//
+// // Example use:
+//
+// .class {
+//   @include clearfix();
+// }
+@mixin clearfix() {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+// Mixin to add bottom underline border to an element
+//
+// // Example use:
+//
+// .class {
+//   @include underlineBorder();
+// }
+@mixin underlineBorder($position) {
+  text-shadow: 0.04545em  0             0 $color-white,
+                 0.09091em  0           0 $color-white,
+                 0.13636em  0           0 $color-white,
+                 -0.04545em 0           0 $color-white,
+                 -0.09091em 0           0 $color-white,
+                 -0.13636em 0           0 $color-white,
+                 0          0.04545em   0 $color-white,
+                 0          0.09091em   0 $color-white,
+                 0          -0.04545em  0 $color-white,
+                 0          -0.09091em  0 $color-white;
+
+  text-decoration: none;
+  background-size: 1px 1px;
+  background-position: 0 $position;
+  background-repeat: repeat-x;
+  background-image: linear-gradient(to bottom, $color-text, $color-text);
+
+  @include attention() {
+    color: $color-brand;
+    background-image: linear-gradient(to bottom, $color-brand, $color-brand);
+  }
+
+  &::selection {
+    text-shadow: none;
+    background-image: none;
+  }
+}

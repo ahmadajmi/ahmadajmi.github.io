@@ -1,0 +1,55 @@
+/*------------------------------------*\
+  Components > Off Canvas
+\*------------------------------------*/
+
+$off-canvas-width: 200px;
+
+.c-off-canvas-toggle {
+  display: none;
+
+  @include mq($until: desktop) {
+    position: absolute;
+    top: double($base-spacing-unit);
+    right: $base-spacing-unit + half(quarter($base-spacing-unit));
+    display: block;
+    border: 0;
+    background: none;
+  }
+}
+
+@include mq($until: desktop) {
+
+  // prevent horizontal scroll during off-canvas
+
+  html,
+  body { overflow-x: hidden; }
+
+  .c-off-canvas-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    width: $off-canvas-width;
+    height: 100%;
+
+    -webkit-transform: translate3d($off-canvas-width, 0, 0);
+            transform: translate3d($off-canvas-width, 0, 0);
+
+    border-left: 1px solid $color-border;
+    background-color: $color-white;
+
+    &.is-active {
+      display: block;
+    }
+  }
+
+  .c-off-canvas-container {
+    -webkit-transition: all $global-transition cubic-bezier(.565, 1.65, .765, .88);
+            transition: all $global-transition cubic-bezier(.565, 1.65, .765, .88);
+
+    &.is-active {
+      -webkit-transform: translate3d(- $off-canvas-width, 0, 0);
+              transform: translate3d(- $off-canvas-width, 0, 0);
+    }
+  }
+}

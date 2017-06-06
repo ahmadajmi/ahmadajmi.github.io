@@ -1,0 +1,20 @@
+<div class='o-grid__col o-grid__col--4-4'>
+  <div class='c-journal-card'>
+
+    <time class='c-journal-card__date' datetime='{{ journal.date | date: '%b %-d, %Y' }}'>{{ journal.date | date: '%b %-d, %Y' }}</time>
+
+    <a href='{{ journal.url }}'>
+      <h3 class='c-journal-card__title'>
+        {{ journal.title }}
+      </h3>
+    </a>
+
+    <div class='c-content'>
+      {{ journal.content }}
+    </div>
+  </div>
+</div>
+
+{% unless forloop.last == true %}
+  <hr>
+{% endunless %}
