@@ -4,7 +4,12 @@
 
 .c-content {
   a:not(.c-btn) {
-    @include underlineBorder(94%);
+    text-decoration: underline;
+    text-decoration-skip: ink;
+
+    @include attention() {
+      color: $color-brand;
+    }
   }
 
   img:not(.no-frame) {

@@ -1,7 +1,7 @@
 <div class='o-grid__col o-grid__col--center o-grid__col--3-4'>
   <div class='c-journal-card'>
 
-    <time class='c-journal-card__date' datetime='{{ journal.date | date: '%b %-d, %Y' }}'>{{ journal.date | date: '%b %-d, %Y' }}</time>
+    <time class='c-journal-card__date' datetime='{{ journal.date | date_to_xmlschema }}'>{{ journal.date | date: '%b %-d, %Y' }}</time>
 
     <a href='{{ journal.url }}' class='c-journal-card__link'>
       <h3 class='c-journal-card__title'>

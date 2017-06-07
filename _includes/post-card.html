@@ -1,7 +1,7 @@
 <div class='o-grid__col o-grid__col--2-4'>
   <div class='c-post-card'>
     <span class='c-post-card__meta'>
-      <time datetime='{{ post.date | date: '%b %-d, %Y' }}'>{{ post.date | date: '%b %-d, %Y' }}</time>
+      <time datetime='{{ post.date | date_to_xmlschema }}'>{{ post.date | date: '%b %-d, %Y' }}</time>
       {% if post.external %} . {{ post.external.host }} {% endif %}
     </span>
 
