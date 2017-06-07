@@ -1,12 +1,12 @@
 ---
-title: Web Accessibility Course by Google from Udacity
+title: Web Accessibility
 layout: post
 date: '2017-06-05'
 ---
 
-![Accessibility Course Cover Image](/images/journal/ud891.jpg)
+![Udacity Accessibility Course Cover Image](/images/journal/ud891.jpg)
 
-Today, I just finished and I would recommend this Web Accessibility course from Google by Udacity.
+Today, I just finished and I would recommend this [Web Accessibility course from Google by Udacity](https://www.udacity.com/course/web-accessibility--ud891).
 
 Accessibility is something I wasn't taking seriously before and was just reading some bits here and there without understanding and seeing the big picture if using it.
 
