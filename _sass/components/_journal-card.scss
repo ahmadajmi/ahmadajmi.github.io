@@ -9,12 +9,19 @@
     font-size: $font-size-small;
   }
 
+  &__link {
+    @include attention() {
+      text-decoration: none;
+    }
+  }
+
   &__title {
-    display: inline-block;
     font-size: $font-size-h5;
     line-height: $line-height-base;
     transition: $global-transition;
 
-    @include underlineBorder(86%);
+    @include attention() {
+      color: $color-brand;
+    }
   }
 }

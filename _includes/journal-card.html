@@ -3,7 +3,7 @@
 
     <time class='c-journal-card__date' datetime='{{ journal.date | date: '%b %-d, %Y' }}'>{{ journal.date | date: '%b %-d, %Y' }}</time>
 
-    <a href='{{ journal.url }}'>
+    <a href='{{ journal.url }}' class='c-journal-card__link'>
       <h3 class='c-journal-card__title'>
         {{ journal.title }}
       </h3>
