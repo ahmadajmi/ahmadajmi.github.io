@@ -27,7 +27,7 @@ Oktob was acquired by [Toriom](http://toriom.com/) in Feburary 2017.
 
 ---
 
-<a href='{{ site.twitter }}'>Twitter</a> . <a href='{{ site.facebook }}'>Facebook</a>
+<a href='{{ site.twitter }}'>Twitter</a>
 
 <a href='{{ site.instagram }}'>Instagram</a> . <a href='{{ site.flickr }}'>Flickr</a>
 
