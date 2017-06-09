@@ -2,10 +2,13 @@
   Elements > code & pre
 \*------------------------------------*/
 
+$bg-code: #F0F0F0;
+
 pre,
 code {
-  font-family: $font-monospace;
-  background-color: $bg-gray;
+  font-family: $font-code;
+  font-size: $font-size-medium;
+  background-color: $bg-code;
 }
 
 pre {
@@ -19,4 +22,4 @@ pre {
 }
 
 li code,
-p code { padding: quarter($base-spacing-unit) half($base-spacing-unit); }
+p code { padding: half(quarter($base-spacing-unit)) half($base-spacing-unit); }
