@@ -39,3 +39,6 @@ collections:
   journals:
     output: true
     permalink: /journal/:path/
+  links:
+    output: true
+    permalink: /links/:path/

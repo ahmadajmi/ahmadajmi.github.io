@@ -1,0 +1,20 @@
+<div class='o-grid__col o-grid__col--center o-grid__col--3-4'>
+  <div class='c-link-card'>
+
+    <time class='c-link-card__date' datetime='{{ link.date | date_to_xmlschema }}'>{{ link.date | date: '%b %-d, %Y' }}</time>
+
+    <a href='{{ link.link }}' class='c-link-card__link'>
+      <h3 class='c-link-card__title'>
+        {{ link.title }}
+      </h3>
+    </a>
+
+    <div class='c-content'>
+      {{ link.content }}
+    </div>
+  </div>
+</div>
+
+{% unless forloop.last == true %}
+  <hr>
+{% endunless %}

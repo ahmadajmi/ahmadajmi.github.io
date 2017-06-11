@@ -1,0 +1,14 @@
+---
+layout: default
+title: Links
+---
+
+{% assign links = (site.links | sort: 'date') | reverse %}
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    {% for link in links %}
+      {% include link-card.html %}
+    {% endfor %}
+  </div>
+</div>
