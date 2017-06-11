@@ -1,7 +1,7 @@
 ---
 title: Designing with data
 layout: post
-date: '2017-06-12'
+date: '2017-06-11'
 link: https://blog.songkick.com/designing-with-data-65ac22597631
 ---
 
