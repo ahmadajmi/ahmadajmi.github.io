@@ -5,7 +5,7 @@ date: '2017-06-11'
 link: https://www.udacity.com/course/web-accessibility--ud891
 ---
 
-A good article on SmashingMagazine A/B testing and about how to use data to make decesion optimizing the website design. Ashley discussed different terms at first like:
+A good article on Smashing Magazine about A/B testing and about how to use data to make decesion optimizing the website design. Ashley discussed different terms at first like:
 
 > Quantitative data: Numerical data that shows the who, what, when and where.
 

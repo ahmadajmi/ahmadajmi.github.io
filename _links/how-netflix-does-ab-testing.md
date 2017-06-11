@@ -1,7 +1,7 @@
 ---
 title: How Netflix Does A/B Testing
 layout: post
-date: '2017-06-10 07:47:32'
+date: '2017-06-10'
 link: https://www.invisionapp.com/blog/how-netflix-does-ab-testing/
 ---
 
