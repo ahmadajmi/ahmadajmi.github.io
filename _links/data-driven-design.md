@@ -2,7 +2,7 @@
 title: Data-Driven Design In The Real World
 layout: post
 date: '2017-06-11'
-link: https://www.udacity.com/course/web-accessibility--ud891
+link: https://www.smashingmagazine.com/2013/09/data-driven-design-in-the-real-world/
 ---
 
 A good article on Smashing Magazine about A/B testing and about how to use data to make decesion optimizing the website design. Ashley discussed different terms at first like:
