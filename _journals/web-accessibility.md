@@ -1,5 +1,5 @@
 ---
-title: Web Accessibility
+title: On Web Accessibility
 layout: post
 date: '2017-06-05'
 ---
