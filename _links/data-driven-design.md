@@ -1,7 +1,7 @@
 ---
 title: Data-Driven Design In The Real World
 layout: post
-date: '2017-06-11'
+date: '2017-06-9'
 link: https://www.smashingmagazine.com/2013/09/data-driven-design-in-the-real-world/
 ---
 

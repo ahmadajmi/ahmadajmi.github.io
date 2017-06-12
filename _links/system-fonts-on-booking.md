@@ -1,7 +1,7 @@
 ---
 title: Implementing System Fonts on Booking.Com
 layout: post
-date: '2017-06-12'
+date: '2017-06-11'
 link: https://booking.design/implementing-system-fonts-on-booking-com-a-lesson-learned-bdc984df627f
 ---
 

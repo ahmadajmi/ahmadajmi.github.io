@@ -1,7 +1,7 @@
 ---
 title: How Netflix Does A/B Testing
 layout: post
-date: '2017-06-10'
+date: '2017-06-8'
 link: https://www.invisionapp.com/blog/how-netflix-does-ab-testing/
 ---
 
@@ -9,7 +9,7 @@ link: https://www.invisionapp.com/blog/how-netflix-does-ab-testing/
 
 > The idea of A/B testing is to present different content to different user groups, gather their reactions, and use the results to build strategies in the future.
 
- > Are your intuitions correct? Sadly, when it comes to user behavior, our intuitions could be wrong—and the only way to prove it is through A/B testing
+> Are your intuitions correct? Sadly, when it comes to user behavior, our intuitions could be wrong—and the only way to prove it is through A/B testing
 
 > A/B testing is the best way to validate whether one UX design is more effective than another.
 
