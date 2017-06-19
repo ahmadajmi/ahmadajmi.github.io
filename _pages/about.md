@@ -32,12 +32,13 @@ Oktob was acquired by [Toriom](http://toriom.com/) in Feburary 2017.
 <a href='{{ site.instagram }}' target='_blank' rel='me nofollow noopener'>Instagram</a> .
 <a href='{{ site.flickr }}' target='_blank' rel='me nofollow noopener'>Flickr</a>
 
-<a href='{{ site.github }}' target='_blank' rel='me nofollow noopener'>GitHub</a> .
-<a href='{{ site.stackoverflow }}' target='_blank' rel='me nofollow noopener'>Stack Overflow</a>
-
 <a href='{{ site.linkedin }}' target='_blank' rel='me nofollow noopener'>Linkedin</a> .
 <a href='{{ site.resume }}' target='_blank'>CV/Resume</a> .
 <a href='{{ site.mailto }}' target='_blank' rel='me nofollow noopener'>Email</a>
+
+<a href='{{ site.github }}' target='_blank' rel='me nofollow noopener'>GitHub</a> .
+<a href='{{ site.stackoverflow }}' target='_blank' rel='me nofollow noopener'>Stack Overflow</a> .
+<a href='{{ site.keybase }}' target='_blank' rel='me nofollow noopener'>Keybase</a>
 
 <a href='{{ site.medium }}' target='_blank' rel='me nofollow noopener'>Medium</a> .
 <a href='{{ site.sitepoint }}' target='_blank' rel='me nofollow noopener'>SitePoint</a> .
