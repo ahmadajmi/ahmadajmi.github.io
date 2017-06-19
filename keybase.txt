@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/ahmadajmi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ahmadajmi.com
+  * I am ahmadajmi (https://keybase.io/ahmadajmi) on keybase.
+  * I have a public key ASArtn4TMXUgHjh8WaiQtCRuQg2zFGI_qySOcr1oZh9g3Qo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01202bb67e133175201e387c59a890b4246e420db314623fab248e72bd68661f60dd0a",
+            "host": "keybase.io",
+            "kid": "01202bb67e133175201e387c59a890b4246e420db314623fab248e72bd68661f60dd0a",
+            "uid": "d01c8560fae74c1f20c79ae660a20919",
+            "username": "ahmadajmi"
+        },
+        "service": {
+            "hostname": "ahmadajmi.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1497903842,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1497903830,
+        "hash": "11df9e6ecb6cc6362c9f09eb48ded36ad64951ed9def8648640d304f5e3bbdf29727c8a13cf70efdc7d9349c17bcc188a88f9d522ae8672d0631a6ed964448d2",
+        "seqno": 1180978
+    },
+    "prev": "feaaa29131ff3e07281947d3dc548a7719a0de8be483c853701a3221baa4b124",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgK7Z+EzF1IB44fFmokLQkbkINsxRiP6skjnK9aGYfYN0Kp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMmJiNjdlMTMzMTc1MjAxZTM4N2M1OWE4OTBiNDI0NmU0MjBkYjMxNDYyM2ZhYjI0OGU3MmJkNjg2NjFmNjBkZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMmJiNjdlMTMzMTc1MjAxZTM4N2M1OWE4OTBiNDI0NmU0MjBkYjMxNDYyM2ZhYjI0OGU3MmJkNjg2NjFmNjBkZDBhIiwidWlkIjoiZDAxYzg1NjBmYWU3NGMxZjIwYzc5YWU2NjBhMjA5MTkiLCJ1c2VybmFtZSI6ImFobWFkYWptaSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYWhtYWRham1pLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIzIn0sImN0aW1lIjoxNDk3OTAzODQyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTc5MDM4MzAsImhhc2giOiIxMWRmOWU2ZWNiNmNjNjM2MmM5ZjA5ZWI0OGRlZDM2YWQ2NDk1MWVkOWRlZjg2NDg2NDBkMzA0ZjVlM2JiZGYyOTcyN2M4YTEzY2Y3MGVmZGM3ZDkzNDljMTdiY2MxODhhODhmOWQ1MjJhZTg2NzJkMDYzMWE2ZWQ5NjQ0NDhkMiIsInNlcW5vIjoxMTgwOTc4fSwicHJldiI6ImZlYWFhMjkxMzFmZjNlMDcyODE5NDdkM2RjNTQ4YTc3MTlhMGRlOGJlNDgzYzg1MzcwMWEzMjIxYmFhNGIxMjQiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED0Qwx2/FXGknXdYVuQ5PPNP41mu7m4bi/y/mWK63RCXMFI/XHPDufO0Z3ElEVOx7Yox/5h9szdIYWq9vgsvZsJqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgZt2ksZekWorrD4yvSoks+sapCj910jv2J0wyzaxisGOjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ahmadajmi
+
+==================================================================
