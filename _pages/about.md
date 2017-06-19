@@ -27,15 +27,22 @@ Oktob was acquired by [Toriom](http://toriom.com/) in Feburary 2017.
 
 ---
 
-<a href='{{ site.twitter }}'>Twitter</a>
+<a href='{{ site.twitter }}' target='_blank' rel='me nofollow noopener'>Twitter</a>
 
-<a href='{{ site.instagram }}'>Instagram</a> . <a href='{{ site.flickr }}'>Flickr</a>
+<a href='{{ site.instagram }}' target='_blank' rel='me nofollow noopener'>Instagram</a> .
+<a href='{{ site.flickr }}' target='_blank' rel='me nofollow noopener'>Flickr</a>
 
-<a href='{{ site.github }}'>GitHub</a> . <a href='{{ site.stackoverflow }}'>Stack Overflow</a>
+<a href='{{ site.github }}' target='_blank' rel='me nofollow noopener'>GitHub</a> .
+<a href='{{ site.stackoverflow }}' target='_blank' rel='me nofollow noopener'>Stack Overflow</a>
 
-<a href='{{ site.linkedin }}'>Linkedin</a> . <a href='{{ site.resume }}'>CV/Resume</a> . <a href='{{ site.mailto }}'>Email</a>
+<a href='{{ site.linkedin }}' target='_blank' rel='me nofollow noopener'>Linkedin</a> .
+<a href='{{ site.resume }}' target='_blank'>CV/Resume</a> .
+<a href='{{ site.mailto }}' target='_blank' rel='me nofollow noopener'>Email</a>
 
-<a href='{{ site.medium }}'>Medium</a> .  <a href='{{ site.sitepoint }}'>SitePoint</a> . <a href='{{ site.arabicBlog }}'>Arabic Blog</a> . <a href='{{ site.goodreads }}'>Goodreads</a>
+<a href='{{ site.medium }}' target='_blank' rel='me nofollow noopener'>Medium</a> .
+<a href='{{ site.sitepoint }}' target='_blank' rel='me nofollow noopener'>SitePoint</a> .
+<a href='{{ site.arabicBlog }}' target='_blank' rel='me nofollow noopener'>Arabic Blog</a> .
+<a href='{{ site.goodreads }}' target='_blank' rel='me nofollow noopener'>Goodreads</a>
 
 ---
 

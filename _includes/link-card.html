@@ -3,7 +3,7 @@
 
     <time class='c-link-card__date' datetime='{{ link.date | date_to_xmlschema }}'>{{ link.date | date: '%b %-d, %Y' }}</time>
 
-    <a href='{{ link.link }}' class='c-link-card__link'>
+    <a href='{{ link.link }}' class='c-link-card__link' target='_blank' rel='nofollow noopener'>
       <h3 class='c-link-card__title'>
         {{ link.title }}
       </h3>
