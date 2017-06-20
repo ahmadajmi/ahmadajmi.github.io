@@ -2,7 +2,7 @@
 title: About
 layout: page
 permalink: '/about'
-image: '/images/ahmadajmi.jpg'
+image: 'images/about-page-hero.jpg'
 ---
 
 Hello!

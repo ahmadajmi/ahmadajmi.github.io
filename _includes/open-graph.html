@@ -1,0 +1,15 @@
+<meta name='twitter:card' content='summary'>
+<meta name='twitter:site' content='@ahmadajmi'>
+<meta name='twitter:creator' content='@ahmadajmi'>
+<meta name='twitter:title' content='{{ page.title }}'>
+<meta name='twitter:description' content='{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}'>
+<meta property='og:title' content='{{ page.title }}'>
+<meta property='og:type' content='website'>
+<meta property='og:url' content='{{ site.url }}{{ page.url }}'>
+<meta property='og:description' content='{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}'>
+<meta property='og:site_name' content='{{ site.title }}'>
+
+{% if page.image %}
+<meta name='twitter:image' content='{{ site.url }}/{{page.image}}'>
+<meta property='og:image' content='{{ site.url }}/{{page.image}}'>
+{% endif %}
