@@ -7,17 +7,13 @@ image: 'images/about-page-hero.jpg'
 
 Hello!
 
-I'm Ahmad Ajmi, a Front End Developer from Cairo, Egypt.
+I'm Ahmad Ajmi, I run a small online business at [Aspire Themes](https://aspirethemes.com/) building elegant WordPress, Ghost, and Jekyll themes. I live in Cairo, Egypt.
 
 I believe the web should be open for everyone, so my main focus and passion is to create faster, functional, and accessible products to make an impact in peoples live.
 
 ---
 
 Learning to code was a signigicant life change for me. I graduated with a degree in Accounting, but I quit it entirely and moved on to learn how to code in HTML & CSS, and then I landed my first job as a web developer back in 2012.
-
----
-
-Currently, I run an online business at [Aspire Themes](https://aspirethemes.com/) building elegant WordPress, Ghost, and Jekyll themes.
 
 ---
 
