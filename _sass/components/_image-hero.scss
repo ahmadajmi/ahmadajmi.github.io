@@ -3,17 +3,9 @@
 \*------------------------------------*/
 
 .c-image-hero {
-  position: relative;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   background-color: $bg-gray;
-  margin-bottom: double($base-spacing-unit);
+  margin-bottom: half($base-spacing-unit);
   transition: opacity $global-transition ease-in-out;
-
-  @include mq($from: desktop) {
-    margin-bottom: quadruple($base-spacing-unit);
-  }
 
   &.js-fadein {
     opacity: 0;
@@ -21,15 +13,5 @@
 
   &.is-inview {
     opacity: 1;
-  }
-
-  &:before {
-    content: '';
-    display: block;
-    padding-bottom: 56.25%;
-
-    @include mq($from: desktop) {
-      padding-bottom: 40%;
-    }
   }
 }
